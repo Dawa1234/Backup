@@ -5,7 +5,7 @@ public class Main {
 
     int a,b;
     long c;
-
+    // Function/Method.
     public long Addition(){
         a = 1;
         b = 2;
