@@ -2,17 +2,18 @@ package com.lol;
 
 
 public class Main {
-
-    int a,b;
+    int a, b; // instances.
     long c;
+
     // Function/Method.
-    public long Addition(){
+    public long Addition() {
         a = 1;
         b = 2;
         c = a + b;
-        System.out.printf("%d is the sum of %d and %d ",c,a,b);
+        System.out.printf("%d is the sum of %d and %d ", c, a, b);
         return c;
     }
+
     // Main Function/Method.
     public static void main(String[] args) {
         Main m1 = new Main();
