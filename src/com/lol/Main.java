@@ -13,7 +13,7 @@ public class Main {
         System.out.printf("%d is the sum of %d and %d ",c,a,b);
         return c;
     }
-
+    // Main Function/Method.
     public static void main(String[] args) {
         Main m1 = new Main();
         m1.Addition();
