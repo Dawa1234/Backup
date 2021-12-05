@@ -5,7 +5,6 @@ public class trap_water {
         int volume_trapped = 0;
         int n = height.length;
 
-
         for (int i = 0; i <= n - 1; i++) {  // i = 1
             int l_max = height[i]; // l_max = height[1] = 3;
 
@@ -25,7 +24,7 @@ public class trap_water {
     }
 
     public static void main(String[] args) {
-        int[] height = {2, 3, 1, 2, 5};
+        int[] height = {5, 1, 6, 0, 3, 1, 2, 5};
         trap_water p1 = new trap_water();
         p1.volume(height);
     }
